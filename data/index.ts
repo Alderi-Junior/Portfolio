@@ -43,7 +43,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
+    img: "./grid.svg",
     spareImg: "/b4.svg",
   },
 
@@ -54,7 +54,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "./b5.svg",
     spareImg: "/grid.svg",
   },
   {
@@ -74,16 +74,16 @@ export const projects = [
     id: 1,
     title: "Photo-Soup",
     des: "A project from my course,implementing image processing techniques",
-    img: "/photosoup.png",
-    iconLists: ["/dotnet.png", "/csharp.png", "/github.png", "/vscode.png"],
+    img: "./photosoup.png",
+    iconLists: ["./dotnet.png", "./csharp.png", "./github.png", "./vscode.png"],
     link: "https://github.com/Alderi-Junior/PhotoSoup",
   },
   {
     id: 2,
     title: "This Portfolio",
     des: "Using my web development skills in practice",
-    img: "/portfolioimage.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/frame.jpg"],
+    img: "./portfolioimage.png",
+    iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./frame.jpg"],
     link: "https://github.com/Alderi-Junior",
   },
 
@@ -109,7 +109,7 @@ export const companies = [
     id: 1,
     name: "Compass",
     img: "logocompass.svg",
-    nameImg: "/logocompass.svg",
+    nameImg: "./logocompass.svg",
   },
 
 ];
@@ -120,14 +120,14 @@ export const workExperience = [
     title: "Java SpringBoot and AWS Intern",
     desc: "Developing solutions using the SpringBoot framework, and services such as AWS.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "./exp1.svg",
   },
   {
     id: 2,
     title: "Porfolio Managar - CRESOL",
     desc: "I had a good job schedule at the company. She is the one who prepared me the most for a competitive environment.",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    thumbnail: "./exp2.svg",
   },
  
 ];
@@ -135,13 +135,13 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "./git.svg",
     link: "https://github.com/Alderi-Junior"
   },
 
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
     link: "https://www.linkedin.com/in/alderi-pasa-junior/"
   },
 ];
